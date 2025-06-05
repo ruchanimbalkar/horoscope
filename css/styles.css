@@ -1,0 +1,70 @@
+:root {
+	--grey: #a9a9a9;
+	--lightgrey: #d3d3d3;
+	--teal: #008080;
+	--white: #fff;
+	--bradius: 10px;
+}
+
+body {
+	background-image: url("https://images.unsplash.com/photo-1620051214519-e5982f867695?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwOTIzNjV8&ixlib=rb-4.1.0&q=85");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font-family: "Martian Mono", monospace;
+}
+
+.wrapper {
+	margin: 3rem auto 0 auto;
+	padding: 1rem;
+	width: 600px;
+}
+
+form {
+	background-color: var(--white);
+	border: 0.13rem solid var(--grey);
+	border-radius: var(--bradius);
+	padding: 1rem;
+	margin-top: 3rem;
+	width: 500px;
+}
+
+legend {
+	font-size: 2rem;
+	font-weight: bolder;
+}
+label {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+select {
+	border-radius: 8px;
+	font-size: 1rem;
+	font-weight: 400;
+	padding: 0.6rem;
+	width: 100%;
+}
+button {
+	background-color: var(--teal);
+	border-radius: var(--bradius);
+	color: white;
+	font-size: 1.1rem;
+	font-weight: bold;
+	padding: 0.8rem;
+	width: 100px;
+}
+
+.card {
+	background-color: var(--lightgrey);
+	border: 0.1rem solid var(--grey);
+	border-radius: var(--bradius);
+	margin-top: 1rem;
+	padding: 1rem;
+	width: 500px;
+}
+
+.display-none {
+	display: none;
+}

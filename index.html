@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Required meta tags come first-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Rucha Nimbalkar>
+
+        <!--CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css"/>
+
+    </head>
+    <body>
+        <!--Horoscopes Project by Rucha Nimbalkar-->
+        <div class="wrapper">
+            <form id="zodiac-form">
+                <legend> Zodiac Sign Form</legend>
+                <p> <label for="sign"> Choose your zodiac sign:</label></p>
+                <p>
+                    <select id="sign" name="sign">
+                        <option selected>Select your sign </option>
+                        <option value="aries"> &#9800; Aries </option>
+                        <option value="taurus"> &#9801;Taurus </option>
+                        <option value="gemini"> &#9802; Gemini </option>
+                        <option value="cancer"> &#9803; Cancer </option>
+                        <option value="leo"> &#9804; Leo </option>
+                        <option value="virgo"> &#9805; Virgo </option>
+                        <option value="libra"> &#9806; Libra </option>
+                        <option value="scorpio"> &#9807; Scorpio </option>
+                        <option value="sagittarius"> &#9808; Sagittarius </option>
+                        <option value="capricorn"> &#9809; Capricorn </option>
+                        <option value="aquarius"> &#9810; Aquarius </option>
+                        <option value="pisces"> &#9811; Pisces </option>
+                    </select>
+                </p>
+                <button type="submit"> Submit </button>
+            </form>
+            <div class="card display-none">
+                <img class="sign-icon">
+                <p class="p1"> </p>
+                <p class="p2"> </p>
+                <p class="p3"> </p>
+            </div>
+        </div>
+       <script src="scripts/script.js"></script>
+    </body>
+</html>
