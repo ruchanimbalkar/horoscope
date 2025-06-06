@@ -4,20 +4,25 @@
         <!--Required meta tags come first-->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Rucha Nimbalkar>
+        <meta name="author" content="Rucha Nimbalkar">
 
         <!--CSS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/styles.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <title>Daily Horoscope</title>
 
     </head>
     <body>
         <!--Horoscopes Project by Rucha Nimbalkar-->
         <div class="wrapper">
             <form id="zodiac-form">
-                <legend> Zodiac Sign Form</legend>
+                <fieldset>
+                    <legend> Zodiac Sign Form</legend>
+                </fieldset>
+                
                 <p> <label for="sign"> Choose your zodiac sign:</label></p>
                 <p>
                     <select id="sign" name="sign">
@@ -39,7 +44,7 @@
                 <button type="submit"> Submit </button>
             </form>
             <div class="card display-none">
-                <img class="sign-icon">
+                <img class="sign-icon" src="images/zodiac.png" alt="zodiac sign">
                 <p class="p1"> </p>
                 <p class="p2"> </p>
                 <p class="p3"> </p>
